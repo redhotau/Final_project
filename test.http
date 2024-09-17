@@ -1,0 +1,16 @@
+
+POST http://localhost:3000/register
+Content-Type: application/json
+{
+  "name": "Rachmat Hidayat", 
+  "username": "rachmath", 
+  "email": "rachmat.hidayat@gmail.com", 
+  "phoneNumber": "628111880461", 
+  "address": "Tangerang Selatan", 
+  "role": "Admin", 
+  "password":"SecretAdmin"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json

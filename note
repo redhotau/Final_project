@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name User --attributes name:string,username:string,email:string,password:string,role:string,address:string,phoneNumber:string
+npx sequelize-cli model:generate --name Movie --attributes title:string,synopsis:string,trailerUrl:string,imgUrl:string,rating:string,status:integer
+npx sequelize-cli model:generate --name Bookmark --attributes MovieId:integer,UserId:integer
